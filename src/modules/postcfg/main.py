@@ -101,7 +101,7 @@ class ConfigController:
         self.remove_pkg("calamares-git", "usr/bin/calamares")
 
         # Copy skel to root
-        self.copy_folder('etc/skel', 'root')
+        # self.copy_folder('etc/skel', 'root')
 
         # Workaround for pacman-key bug
         # FS#45351 https://bugs.archlinux.org/task/45351
